@@ -42,7 +42,6 @@ print(f"F1 Score: {f1:.4f}")
 
 # confusion matrix
 cm = confusion_matrix(y_test, y_pred)
-print(cm)
 
 # confusion matrix visualization
 plt.figure(figsize=(10, 8))
